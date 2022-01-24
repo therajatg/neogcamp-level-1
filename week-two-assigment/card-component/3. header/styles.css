@@ -1,0 +1,55 @@
+body, .parent, ul{
+    display: flex;
+}
+
+p, li, .child:nth-child(3){
+    color:gray;
+}
+
+.child:nth-child(1), .child:nth-child(3){
+    padding-left: 15px;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.parent{
+    flex-direction: column;
+    height: 500px;
+    width: 350px;
+    border-radius: 0.3rem;
+    box-shadow: 0px 1px 2px black;
+    justify-content: space-around;
+}
+
+img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+ul{
+    justify-content: space-around;
+    padding-left: 0px;
+}
+
+li{
+    display: inline-block;     
+    font-weight: bolder;                        
+}
+
+h2{
+    margin-bottom: 0px;
+    font-weight: 550;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p{
+    margin-top: 0px;
+}
