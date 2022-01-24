@@ -8,8 +8,6 @@
     <style>
         body{
             display: flex;
-            justify-content: center;
-            align-items: center;
             height: 100vh;
         }
 
@@ -20,11 +18,16 @@
             width: 400px;
             display: flex;
             flex-direction: column;
+            cursor: pointer;
         }
         .upper{
             display: flex;
             background-color: whitesmoke;
             height: 116px;
+        }
+
+        .pic{
+            width: 30%;
         }
 
         /* why margin-left is displacing the text only and not the entire div which contains the text.  */
@@ -48,35 +51,39 @@
         ul{
             display: flex;
             justify-content: space-around;
+            padding-left: 0px;
+            cursor: pointer;
         }
 
         li{
-            display: inline-block;                             
+            display: inline-block;     
+            color: gray;
+            font-weight: bolder;                        
         }
 
         a{
             text-decoration: none;
+            font-weight: bold;
         }
-
 
     </style>
 </head>
 <body>
     <div class="parent">
         <div class="upper">
-            <img class = "pic" src="https://picsum.photos/100/116" alt="">
+            <img class = "pic" src="cycling is meditation.jpg" alt="">
             <div class="text">
-                <h2>Our Changing Planet</h2>
-                <p>by Kurt Wagner</p>
+                <h2>Cycling Is Meditation</h2>
+                <p>by Rajat Gupta</p>
             </div>
         </div>
         <div class="lower">
             <ul>
                 <li><a href="#">READ</a></li>
                 <li><a href="#">BOOKMARK</a></li>
-                <li>🤍</li>
-                <li>s</li>
-                <li>⋮</li>
+                <li><a href="#">🤍</a></li>
+                <li><a href="#">💬</a></li>
+                <li><a href="#">⋮</a></li>
             </ul>
         </div>
     </div>

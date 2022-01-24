@@ -47,7 +47,13 @@ body{
     color: gray;
 }
 
-hr{
+/* hr{
     color: gray;
     size: 5px;
-}
+} */
+
+hr {
+    width: 100%;               
+    background-color: gray;
+    height: 1px;
+  }
