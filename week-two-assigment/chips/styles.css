@@ -1,0 +1,21 @@
+/* I gave it min-width so that when squeexed they don't go out of container when squeezed qill the very end. Intead the content will shrink to accomodate the chips bcoz I gave min-width and that too in rem's so as fint-size decreases accordingly the container width decreases. */
+
+
+
+div{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 2rem;
+    min-width: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightgrey;
+}
+
+.chip{
+    display: inline-block;
+    background-color: darkgray;
+    border-radius: 15px;
+    padding: 6px;
+    margin: 10px;
+}

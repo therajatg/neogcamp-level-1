@@ -1,0 +1,40 @@
+
+:root{
+    --primary-color: #7C3aed;
+}
+
+body{
+    margin: 0px;
+    padding: 0;
+}
+
+.navigation-bar{
+    background-color: var(--primary-color);
+    display: flex;
+    color: white;
+    padding: 0.8rem;
+    font-size: x-large;
+}
+
+.left-nav, .right-nav{
+    display: flex;
+    flex-grow: 1;
+}
+
+.left-nav{
+    justify-content: left;
+}
+
+.right-nav{
+    justify-content: right;
+}
+
+nav p{
+    padding: 15px;
+    cursor: pointer;
+}
+
+nav p:hover{
+    background-color:#a020f0;
+    border-radius: 2rem;
+}

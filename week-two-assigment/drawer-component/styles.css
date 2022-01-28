@@ -1,59 +1,57 @@
-body{
-    background-color: lightgray;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Fuzzy+Bubbles&family=Gwendolyn&family=Libre+Baskerville&family=Meow+Script&family=Mochiy+Pop+P+One&family=Mukta:wght@200;400&family=Playfair+Display:ital@1&display=swap');
 
-.parent{
-    background-color: white;
+
+.main-div{
     display: flex;
     flex-direction: column;
-    width: 200px;
-    padding: 20px;
-    row-gap: 20px;
+    width: 15rem;
+    height: 20rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    overflow: auto;
+    font-family: 'Cabin', sans-serif;
+    position: relative;
 }
 
-.child{
-    display: flex;
-    column-gap: 40px;
-    border-radius: 4px;
-    padding: 6px;
+.permanent-heading{
+    height: 70px;
+    position: fixed;
+    z-index: 2;
+    background-color: lightgrey;
+    flex-grow: 1;
 }
 
-.child:hover{
-    background-color: lightgray;
-    cursor: pointer;
+.permanent-heading p, h2{
+    margin: 0;
+    padding: 0;
 }
 
-.upper-parent{
-    display: flex;
-    flex-direction: column;
+.list-items{
+    padding-top: 70px;
+    list-style: none;
 }
 
-.lower-parent{
-    display: flex;
-    flex-direction: column;
-    row-gap: 20px;
+.item{
+    padding-bottom: 20px;
 }
 
-.title{
-    font-size: larger;
-    font-weight: bolder;
+.item i{
+    padding-right: 20px;
 }
 
-.subtext{
-    color: gray;
+.list-items1{
+    justify-content: space-around;
 }
 
-/* hr{
-    color: gray;
-    size: 5px;
-} */
+ul{
+    list-style: none;
+}
 
-hr {
-    width: 100%;               
-    background-color: gray;
-    height: 1px;
-  }
+span{
+    margin-left: 2rem;
+}
+
+.a::marker{
+    margin-right: 2rem;;
+}
+
